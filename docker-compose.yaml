@@ -9,3 +9,7 @@ services:
     ports:
       - 8080:8080
     command: sleep infinity
+
+networks:
+  default:
+    driver: overlay
