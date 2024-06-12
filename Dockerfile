@@ -9,8 +9,8 @@ RUN mv /usr/local/cargo/bin/trunk /usr/local/cargo/bin/trunks
 
 RUN cargo install -f wasm-bindgen-cli
 
-EXPOSE 8080
-
-VOLUME [ "/code" ]
-
 WORKDIR /code
+
+COPY . .
+
+EXPOSE 8080
