@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.profiles.linux": {
+    "Nu": {
+        "path": "/usr/local/bin/nu",
+    }
+    },
+    "terminal.integrated.defaultProfile.linux": "Nu",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
+}
