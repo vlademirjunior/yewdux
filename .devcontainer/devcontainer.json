@@ -22,6 +22,29 @@
 			"installPlugins": true,
 			"version": "latest"
 		}
+	},
+
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"swellaby.rust-pack",
+				"rangav.vscode-thunder-client",
+				"Trunk.io",
+				"GitHub.copilot-chat",
+				"GitHub.copilot",
+				"TechTheAwesome.rust-yew",
+				"pnp.polacode",
+				"aaron-bond.better-comments",
+				"streetsidesoftware.code-spell-checker",
+				"formulahendry.code-runner",
+				"vadimcn.vscode-lldb",
+				"vivaxy.vscode-conventional-commits",
+				"Gruntfuggly.todo-tree",
+				"lkytal.pomodoro",
+				"alefragnani.Bookmarks"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
