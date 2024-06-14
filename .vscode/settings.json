@@ -7,5 +7,13 @@
   "terminal.integrated.defaultProfile.linux": "Nu",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "conventionalCommits.scopes": ["Trunk Lint", "Settings Json", "Cargo"]
+  "conventionalCommits.scopes": ["Trunk Lint", "Settings Json", "Cargo"],
+  "cSpell.words": [
+    "bindgen",
+    "caprover",
+    "devcontainer",
+    "frameowrk",
+    "nushell",
+    "yewdux"
+  ]
 }

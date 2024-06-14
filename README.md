@@ -76,7 +76,7 @@ sys cpu | explore
 
 ## Change Theme
 
-- CTRL + SHIFT + P (Preferências: Alterne entre Temas Claro/Escuro)
+- CTRL + SHIFT + P (Preferences: change between Light/Dark themes)
 
 ## Guide to deploy (manually)
 
@@ -95,7 +95,7 @@ output: success
 - [Caprover best practice](https://caprover.com/docs/best-practices.html)
 - [Best practice manually deploy](https://caprover.com/docs/recipe-deploy-create-react-app.html)
 
-## Main dependences
+## Main dependencies
 
 - Trunk [Crates trunk](https://crates.io/crates/trunk)
 - wasm-bindgen-cli [Crates wasm-bindgen-cli](https://crates.io/crates/wasm-bindgen-cli)
