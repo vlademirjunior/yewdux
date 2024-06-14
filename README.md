@@ -45,6 +45,25 @@ output: /
 
 ## Using the terminal (nushell)
 - [Quick Tour](https://www.nushell.sh/book/quick_tour.html)
+```shell
+# Eg.:
+watch . --glob=**/*.rs {|| cargo test }
+$env | table -e
+$env.FOO = 'BAR'
+$env.FOO
+load-env { "BOB": "FOO", "JAY": "BAR" }
+ls | where type == file | sort-by modified desc | select name
+http get http://localhost:8080
+http get http://localhost.8080 | query web --query 'header' | flatten
+history | where command =~ cargo | get command
+history | last 5
+random chars --length 20
+random uuid
+'hello' | str length
+sys
+sys cpu
+sys cpu | explore
+```
 
 ## Installing extensions
 - Add to devcontainer.json
