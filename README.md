@@ -14,9 +14,14 @@ WASM with yew using yewdux for state management
 
 ## Running
 
-- Read de Makefile (docker)
+- make trunk-init
 - trunks serve
 - trunks build --release (build to deploy)
+- Read de Makefile (docker)
+
+## Lint
+
+- execute `make lint` before commit/push
 
 ## Using the terminal (nushell)
 
