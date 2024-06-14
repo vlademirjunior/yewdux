@@ -15,8 +15,8 @@ WASM with yew using yewdux for state management
 ## Running
 
 - Read de Makefile (docker)
-- trunk serve
-- trunk build --release (build to deploy)
+- trunks serve
+- trunks build --release (build to deploy)
 
 ## Using the terminal (nushell)
 
