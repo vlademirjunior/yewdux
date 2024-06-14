@@ -14,14 +14,9 @@ WASM with yew using yewdux for state management
 
 ## Running
 
-- Read de Makefile
-
-## Trunk check (universal linter)
-
-- trunk actions disable trunk-upgrade-available
-- trunk check # runs the universal linter on all applicable files
-- trunk fmt # runs all the enabled formatters and auto-applies changes
-- use `CTRL + SHIFT + G` to bypass trunk check on push
+- Read de Makefile (docker)
+- trunk serve
+- trunk build --release (build to deploy)
 
 ## Using devcontainer the first time
 
