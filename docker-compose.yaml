@@ -1,11 +1,11 @@
-version: '3.8'
+version: "3.8"
 services:
   wasm:
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/code
+      - .:/yewduxrs
     ports:
       - "8080:8080"
     command: sleep infinity

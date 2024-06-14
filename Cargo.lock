@@ -1151,8 +1151,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "yewdux"
+name = "yewduxrs"
 version = "0.1.0"
 dependencies = [
+ "wasm-bindgen",
+ "web-sys",
  "yew",
 ]

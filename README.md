@@ -1,4 +1,4 @@
-# yewdux
+# yewduxrs
 
 WASM with yew using yewdux for state management
 
@@ -59,7 +59,7 @@ $env.FOO
 load-env { "BOB": "FOO", "JAY": "BAR" }
 ls | where type == file | sort-by modified desc | select name
 http get http://localhost:8080
-http get http://localhost.8080 | query web --query 'header' | flatten
+http get http://localhost:8080 | query web --query 'header' | flatten
 history | where command =~ cargo | get command
 history | last 5
 random chars --length 20

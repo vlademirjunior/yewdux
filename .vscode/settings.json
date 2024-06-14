@@ -9,11 +9,21 @@
   "files.trimFinalNewlines": true,
   "conventionalCommits.scopes": ["Trunk Lint", "Settings Json", "Cargo"],
   "cSpell.words": [
+    "alefragnani",
     "bindgen",
     "caprover",
     "devcontainer",
+    "eitsupi",
+    "formulahendry",
     "frameowrk",
+    "Gruntfuggly",
     "nushell",
-    "yewdux"
+    "polacode",
+    "rangav",
+    "swellaby",
+    "vivaxy",
+    "yewdux",
+    "yewduxrs",
+    "autofetch"
   ]
 }

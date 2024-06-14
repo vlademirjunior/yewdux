@@ -9,7 +9,7 @@ RUN mv /usr/local/cargo/bin/trunk /usr/local/cargo/bin/trunks
 
 RUN cargo install -f wasm-bindgen-cli
 
-WORKDIR /code
+WORKDIR /yewduxrs
 
 COPY . .
 
