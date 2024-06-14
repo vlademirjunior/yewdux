@@ -18,29 +18,6 @@ WASM with yew using yewdux for state management
 - trunk serve
 - trunk build --release (build to deploy)
 
-## Using devcontainer the first time
-
-- Add Cargo.toml
-
-```shell
-$ cargo init
-output: /
-```
-
-- Add yew dependence on Cargo.toml
-
-```shell
-$ cargo add yew
-output: /
-```
-
-- Sometimes old files of the build can throw issues. Try clean the cache and the files of the build.
-
-```shell
-$ cargo clean
-output: /
-```
-
 ## Using the terminal (nushell)
 
 - [Quick Tour](https://www.nushell.sh/book/quick_tour.html)
@@ -76,7 +53,7 @@ sys cpu | explore
 ## Guide to deploy (manually)
 
 ```shell
-$ tar -cvf ./deploy.tar --exclude='*.map' ./captain-definition ./dist/*
+$ tar -cvf ./deploy.tar --exclude='*.map' ./captain-definition ./static/dist/*
 output: ./deploy.tar
 ```
 
