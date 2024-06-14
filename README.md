@@ -1,7 +1,8 @@
 # yewdux
+
 WASM with yew using yewdux for state management
 
-# What is Yew?
+## What is Yew?
 
 - [Yew.rs frameowrk](https://yew.rs/)
 - Yew is a modern Rust framework for creating multi-threaded front-end web apps using WebAssembly and SPAs.
@@ -12,6 +13,7 @@ WASM with yew using yewdux for state management
 - It supports JavaScript interoperability, allowing developers leverage NPM packages and integrate with existing JavaScript applications.
 
 ## Running
+
 - Read de Makefile
 
 ## Trunk check (universal linter)
@@ -44,7 +46,9 @@ output: /
 ```
 
 ## Using the terminal (nushell)
+
 - [Quick Tour](https://www.nushell.sh/book/quick_tour.html)
+
 ```shell
 # Eg.:
 watch . --glob=**/*.rs {|| cargo test }
@@ -66,13 +70,14 @@ sys cpu | explore
 ```
 
 ## Installing extensions
+
 - Add to devcontainer.json
 
 ## Change Theme
+
 - CTRL + SHIFT + P (Preferências: Alterne entre Temas Claro/Escuro)
 
 ## Guide to deploy (manually)
-```
 
 ```shell
 $ tar -cvf ./deploy.tar --exclude='*.map' ./captain-definition ./dist/*
