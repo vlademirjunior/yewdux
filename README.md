@@ -76,3 +76,4 @@ output: success
 
 - Trunk [Crates trunk](https://crates.io/crates/trunk)
 - wasm-bindgen-cli [Crates wasm-bindgen-cli](https://crates.io/crates/wasm-bindgen-cli)
+- Yewdux [State management](https://intendednull.github.io/yewdux/setup.html)
