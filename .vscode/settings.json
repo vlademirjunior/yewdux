@@ -7,7 +7,7 @@
   "terminal.integrated.defaultProfile.linux": "Nu",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "conventionalCommits.scopes": ["Trunk Lint", "Settings Json", "Cargo"],
+  "conventionalCommits.scopes": ["Trunk Lint", "Settings Json", "Cargo", "Yew"],
   "cSpell.words": [
     "alefragnani",
     "bindgen",

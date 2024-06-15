@@ -24,7 +24,7 @@ jobs:
           command: c
           cwd: "./"
           files: |
-            static/dist
+            dist
             captain-definition
             nginx.conf
           outPath: deploy.tar
